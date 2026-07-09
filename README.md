@@ -1,4 +1,4 @@
-# 🚀 PULSE 2.0 (Predictive Universal Layup & Surface Evaluation)
+#PULSE 2.0 (Predictive Universal Layup & Surface Evaluation)
 
 **PULSE** is a comprehensive, AI-driven road infrastructure assessment system that transforms an ordinary smartphone into a physics-grade road condition monitoring instrument.
 
@@ -6,7 +6,7 @@ By capturing multi-modal sensor data (GPS, Accelerometer, Gyroscope, Camera, and
 
 ---
 
-## 🌟 Key Features
+##Key Features
 
 1. **Smartphone-as-a-Sensor (PWA)**: Captures 5 synchronous streams of data at up to 200Hz.
 2. **Real-time Pipeline**: Segments roads into 100m chunks and processes them live.
@@ -21,7 +21,7 @@ By capturing multi-modal sensor data (GPS, Accelerometer, Gyroscope, Camera, and
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 PULSE is composed of three interconnected systems:
 
@@ -52,7 +52,7 @@ Located in `/frontend`, built with Next.js, React, and TailwindCSS.
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - Python 3.10+
@@ -94,7 +94,7 @@ start_all.bat
 
 ---
 
-## 📖 Deep Dive Documentation
+## Deep Dive Documentation
 
 If you want to understand more about specific subsystems, check out our dedicated documentation files:
 
@@ -106,7 +106,7 @@ If you want to understand more about specific subsystems, check out our dedicate
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Backend**: Python, FastAPI, WebSockets, Uvicorn, Pandas, OpenCV, PyTorch.
 - **AI Integration**: Google Gemini API, Ollama (Local LLM/VLM support).
@@ -115,7 +115,7 @@ If you want to understand more about specific subsystems, check out our dedicate
 
 ---
 
-## ⚠️ Notes for Developers
+## Notes for Developers
 - The backend relies heavily on `asyncio` to orchestrate heavy ML tasks without blocking the main event loop.
 - To reduce API costs or run entirely offline, configure Ollama models (like `qwen3-vl`) in your `.env`.
 - Avoid committing `key.pem` or `cert.pem` files; they are generated dynamically for local SSL to permit mobile camera access.
