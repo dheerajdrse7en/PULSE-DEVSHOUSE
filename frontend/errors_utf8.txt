@@ -1,0 +1,21 @@
+﻿app/pipeline-data/page.tsx(142,21): error TS2657: JSX expressions must have one parent element.
+app/pipeline-data/page.tsx(160,46): error TS1127: Invalid character.
+app/pipeline-data/page.tsx(160,130): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/pipeline-data/page.tsx(160,131): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/pipeline-data/page.tsx(162,31): error TS17002: Expected corresponding JSX closing tag for 'div'.
+app/pipeline-data/page.tsx(164,27): error TS17002: Expected corresponding JSX closing tag for 'CardHeader'.
+app/pipeline-data/page.tsx(165,25): error TS17002: Expected corresponding JSX closing tag for 'Card'.
+app/pipeline-data/page.tsx(181,113): error TS1127: Invalid character.
+app/pipeline-data/page.tsx(181,152): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/pipeline-data/page.tsx(206,21): error TS1005: ')' expected.
+app/pipeline-data/page.tsx(206,23): error TS17002: Expected corresponding JSX closing tag for 'div'.
+app/pipeline-data/page.tsx(208,17): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/pipeline-data/page.tsx(208,19): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/pipeline-data/page.tsx(209,17): error TS17002: Expected corresponding JSX closing tag for 'ScrollArea'.
+app/pipeline-data/page.tsx(210,13): error TS1005: ')' expected.
+app/pipeline-data/page.tsx(210,15): error TS17002: Expected corresponding JSX closing tag for 'motion.div'.
+app/pipeline-data/page.tsx(211,12): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/pipeline-data/page.tsx(220,11): error TS17002: Expected corresponding JSX closing tag for 'MainLayout'.
+app/pipeline-data/page.tsx(221,9): error TS17002: Expected corresponding JSX closing tag for 'ProtectedRoute'.
+app/pipeline-data/page.tsx(222,5): error TS1005: ')' expected.
+app/pipeline-data/page.tsx(223,3): error TS1109: Expression expected.

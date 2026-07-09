@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "PULSE Collector",
+    "slug": "pulse-collector",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0F1E"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pulse.collector",
+      "infoPlist": {
+        "NSMotionUsageDescription": "PULSE needs motion sensors to measure road roughness (IRI) via accelerometer at 200Hz.",
+        "NSLocationWhenInUseUsageDescription": "PULSE needs GPS to geotag road segments and compute vehicle speed for IRI calculation.",
+        "NSLocationAlwaysUsageDescription": "PULSE needs background GPS to continue recording during long drives.",
+        "NSCameraUsageDescription": "PULSE uses the rear camera to visually assess road surface conditions.",
+        "NSMicrophoneUsageDescription": "PULSE uses the microphone to classify road surface type from tire-road contact noise.",
+        "UIBackgroundModes": [
+          "location",
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0F1E"
+      },
+      "package": "com.pulse.collector",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "BODY_SENSORS",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "PULSE uses the rear camera to visually assess road surface conditions."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "PULSE needs GPS to geotag road segments."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8010caf4-98ed-40b0-8a18-6d4533538cef"
+      }
+    }
+  }
+}
